@@ -4,7 +4,8 @@ var nicejob = require('nicejob');
 var PORT = 7000;
 
 function handleRequest(request, responce){
-	responce.end(nicejob());
+	responce.end("<h1>"+nicejob()+"</h1>"+ "  "+ "<h1>"+nicejob()+"</h1>"+ "  "+"<h1>"+nicejob()+"</h1>"+ "  "+"<h1>"+nicejob()+"</h1>");
+
 
 }
 
