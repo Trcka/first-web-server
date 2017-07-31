@@ -1,0 +1,23 @@
+{
+  "name": "first-web-server",
+  "version": "1.0.0",
+  "description": "first web server",
+  "main": "port7000.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trcka/first-web-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trcka/first-web-server/issues"
+  },
+  "homepage": "https://github.com/Trcka/first-web-server#readme",
+  "dependencies": {
+    "hubot-reactions-gifs": "^1.0.3",
+    "nicejob": "^1.0.1"
+  }
+}
